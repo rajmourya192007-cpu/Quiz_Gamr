@@ -1,5 +1,5 @@
 const questions = [
-  {
+    {
     question:"Which is the largest desert in the world?",
     answers: [
         {text:"Sahara Desert", correct:false},
@@ -174,6 +174,5 @@ function handleNextButton(){
         showScore();
     }
 }
-
 
 startQuiz();
