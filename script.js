@@ -1,22 +1,95 @@
 const questions = [
-    {
-        question:"Which is largest animal in the world?",
-        answers: [
-            {text:"Shark",correct:false},
-            {text:"Blue Whale",correct:true},
-            {text:"Elephant",correct:false},
-            {text:"Giraffe",correct:false},
-        ]
-    },
-    {
-        question:"Which is largest animal in the world?",
-        answers: [
-            {text:"Shark",correct:false},
-            {text:"Blue Whale",correct:true},
-            {text:"Elephant",correct:false},
-            {text:"Giraffe",correct:false},
-        ]
-    },
+  {
+    question:"Which is the largest desert in the world?",
+    answers: [
+        {text:"Sahara Desert", correct:false},
+        {text:"Antarctic Desert", correct:true},
+        {text:"Gobi Desert", correct:false},
+        {text:"Arctic Desert", correct:false},
+    ]
+},
+{
+    question:"Which planet is known as the Red Planet?",
+    answers: [
+        {text:"Earth", correct:false},
+        {text:"Mars", correct:true},
+        {text:"Jupiter", correct:false},
+        {text:"Venus", correct:false},
+    ]
+},
+{
+    question:"Which gas do plants absorb from the atmosphere?",
+    answers: [
+        {text:"Oxygen", correct:false},
+        {text:"Carbon Dioxide", correct:true},
+        {text:"Nitrogen", correct:false},
+        {text:"Hydrogen", correct:false},
+    ]
+},
+{
+    question:"What is the capital of France?",
+    answers: [
+        {text:"Berlin", correct:false},
+        {text:"Paris", correct:true},
+        {text:"Madrid", correct:false},
+        {text:"Rome", correct:false},
+    ]
+},
+{
+    question:"Who invented the light bulb?",
+    answers: [
+        {text:"Nikola Tesla", correct:false},
+        {text:"Thomas Edison", correct:true},
+        {text:"Albert Einstein", correct:false},
+        {text:"Isaac Newton", correct:false},
+    ]
+},
+{
+    question:"Which is the fastest land animal?",
+    answers: [
+        {text:"Leopard", correct:false},
+        {text:"Cheetah", correct:true},
+        {text:"Lion", correct:false},
+        {text:"Tiger", correct:false},
+    ]
+},
+{
+    question:"Which is the smallest continent in the world?",
+    answers: [
+        {text:"Europe", correct:false},
+        {text:"Australia", correct:true},
+        {text:"Africa", correct:false},
+        {text:"South America", correct:false},
+    ]
+},
+{
+    question:"What is the boiling point of water?",
+    answers: [
+        {text:"50°C", correct:false},
+        {text:"100°C", correct:true},
+        {text:"150°C", correct:false},
+        {text:"200°C", correct:false},
+    ]
+},
+{
+    question:"Which organ pumps blood in the human body?",
+    answers: [
+        {text:"Liver", correct:false},
+        {text:"Heart", correct:true},
+        {text:"Lungs", correct:false},
+        {text:"Kidneys", correct:false},
+    ]
+},
+{
+    question:"Which is the longest river in the world?",
+    answers: [
+        {text:"Amazon River", correct:false},
+        {text:"Nile River", correct:true},
+        {text:"Ganga River", correct:false},
+        {text:"Yangtze River", correct:false},
+    ]
+},
+
 ];
 
 const questionElement = document.getElementById("question");
@@ -101,5 +174,6 @@ function handleNextButton(){
         showScore();
     }
 }
+
 
 startQuiz();
